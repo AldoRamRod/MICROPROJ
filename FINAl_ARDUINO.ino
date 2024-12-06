@@ -22,8 +22,8 @@ Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 Adafruit_BME280 bme;
 
 // Credenciales WiFi
-const char* ssid = ".:PC  Puma FESC C4:.";
-const char* password = "........";
+const char* ssid = ".:PC Puma FESC C4:.";
+const char* password = "";
 
 // ThingSpeak
 unsigned long myChannelNumber = 2776639;
